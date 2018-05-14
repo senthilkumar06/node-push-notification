@@ -1,0 +1,23 @@
+{
+  "name": "push-notification-node",
+  "version": "1.0.0",
+  "description": "Push notification server using node js and service workers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "push-notification",
+    "nodejs",
+    "service-worker"
+  ],
+  "author": "Senthil kumar Balasubramanian",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "g": "^2.0.1",
+    "npm": "^6.0.1",
+    "web-push": "^3.3.1"
+  }
+}
